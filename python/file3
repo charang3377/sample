@@ -1,22 +1,24 @@
-dfjkdfkdfkd
-kdjfkdkfj
-fkdjfkdjfkd
-fkdjfkdjfkd
-fdkfjkdjfd
-kkddkkd
-kdkdk
-dkdkd
-kdkd
-dkdkd
-ddkd
-dkdkd
-dkdkd
-ddk
-ddk
-ddkd
-dkd
-dkdkd
-dkkd
-dkkdd
-dkdkdkdkkdkkdkdkfdkfjdkjkdkkjfkjffjjfjfkdfjfjdjffjdkfkdfjfjkdjfkdjffjkfkdjfkfjkdfjkdjfjkdjfkdjffkdjfkdjfkfjkdjfkdjfkfjkfjkfjkdfkdjfkdjfkdfjfjkdjfkdjfkjfd
-kfkdjfkdjfkdjfkdjfkdjkffjkdjfkjfkdjfkdjfkfkjfkjfdjfdkfkjfkdfjfjdkdkdfkkddjfjdkkdjj
+print("Hello, world!")
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+# Example usage
+x = 10
+y = 5
+print("Addition:", add(x, y))
+print("Subtraction:", subtract(x, y))
+with open('example.txt', 'r') as file:
+    for line in file:
+        print(line.strip())
+import requests
+from bs4 import BeautifulSoup
+
+url = "https://example.com"
+response = requests.get(url)
+
+soup = BeautifulSoup(response.text, 'html.parser')
+print(soup.title.string)
+
